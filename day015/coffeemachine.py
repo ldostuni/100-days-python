@@ -115,15 +115,12 @@ def ask_coffee(choice):
     elif choice == "report":
         show_resources(resources)
 
-    # if choice = "report", show report of all the machine resources
-    # method to check if resources are enough for client request
-    # if asks for one of coffees, asy "Please insert coins" and for each kind of coin, ask how many
-    # give change too
-    # if not enough of one resource, say sorry there's not enough x, and ask again what they want
 
+is_on = True
 
-customer_choice = input(f"Welcome, which coffee would you like? ({get_coffee_choices(coffees)}): ").lower()
-
-while customer_choice != "off":
-    ask_coffee(customer_choice)
+while is_on:
     customer_choice = input(f"Welcome, which coffee would you like? ({get_coffee_choices(coffees)}): ").lower()
+    if customer_choice != "off":
+        ask_coffee(customer_choice)
+    else:
+        is_on = False
