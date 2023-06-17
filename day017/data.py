@@ -15,7 +15,7 @@ question_data = [
     {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
      "question": "Time on Computers is measured via the EPOX System.", "correct_answer": "False",
      "incorrect_answers": ["True"]}, {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
-                                      "question": "The Windows 7 operating system has six main editions.",
+                                      "question": "The Windows 7 operating system has six main.py editions.",
                                       "correct_answer": "True", "incorrect_answers": ["False"]},
     {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
      "question": "The Windows ME operating system was released in the year 2000.", "correct_answer": "True",
